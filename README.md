@@ -18,10 +18,7 @@ Next, I use validation techniques to make sure our model generalizes with the re
 * Probability of 1st and 2nd choices to be orange: $\frac{6}{10} * \frac{5}{9}$
 * Probability of 3rd and 4th choice to be coconut: \frac{4}{8} * \frac{3}{7}
 * Total Probability:   
-
-  6     5     4     3           
- --  *  -  *  -  *  -  =  0.0714
- 10     9     8     7           
+![equation](http://bit.ly/2wg8Lxe)
 
 
 
