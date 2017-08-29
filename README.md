@@ -16,35 +16,20 @@ Next, I use validation techniques to make sure our model generalizes with the re
 ### 2. You are given a ten piece box of chocolate truffles. You know based on the label that six of the pieces have an orange cream filling and four of the pieces have a coconut filling. If you were to eat four pieces in a row, what is the probability that the first two pieces you eat have an orange cream filling and the last two have a coconut filling?
 
 * Probability of 1st and 2nd choices to be orange: 
-![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B6%7D%7B10%7D%20%2A%20%5Cfrac%7B5%7D%7B9%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+![6/10 * 5/9](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B6%7D%7B10%7D%20%2A%20%5Cfrac%7B5%7D%7B9%7D%20%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0v)
 
 * Probability of 3rd and 4th choice to be coconut: 
-![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B4%7D%7B8%7D%20%2A%20%5Cfrac%7B3%7D%7B7%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
+![4/8 * 3/7](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B4%7D%7B8%7D%20%2A%20%5Cfrac%7B3%7D%7B7%7D%20&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
-* Total Probability:
-
-![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B6%7D%7B10%7D%20%2A%20%5Cfrac%7B5%7D%7B9%7D%20%2A%20%5Cfrac%7B4%7D%7B8%7D%20%2A%20%5Cfrac%7B3%7D%7B7%7D%20%3D%200.0714&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
-
-
+* Probability of 1st and 2nd choices to be orange and 3rd and 4th choice to be coconut:
+![6/10 * 5/9 * 4/8 * 3/7 = 0.0714](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B6%7D%7B10%7D%20%2A%20%5Cfrac%7B5%7D%7B9%7D%20%2A%20%5Cfrac%7B4%7D%7B8%7D%20%2A%20%5Cfrac%7B3%7D%7B7%7D%20%3D%200.0714&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
 ### Follow up question: If you were given an identical box of chocolates and again eat four pieces in a row, what is the probability that exactly two contain coconut filling?
 
-
-
-Within first 4 pieces of box of chocolates, there're 14 combinations, assuming each combinations have similar probability
-```
-Example:
-Combination 1: Orange, Orange, Orange, Coconut 
-Combination 2: Orange, Coconut, Coconut, Orange
-Combination 3: Orange, Coconut, Coconut, Coconut
-Combination 4: Coconut, Coconut, Coconut, Coconut
-....
-Combination 14.
-
-Within those 14 combinations, there're 6 combinations have exactly 2 coconuts
-
-Therefore, we have P(exactly 2 coconuts in 14 combinations) = 6/14 = 42.857%
-```
+* Number of cases to be orange or coconut for 4 pieces: 2 * 2 * 2 * 2 = 16
+* Number of combinations to be two coconut and two orange: (4-1) + (4-2) + (4-3) = 6
+* Probability of combinations to be two coconut and two orange: 
+![6/16 = 0.375](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B6%7D%7B16%7D%20%3D%200.375&bc=White&fc=Black&im=png&fs=12&ff=arev&edit=0)
 
 ### 3. Construct a query to find the top 5 states with the highest number of active users. Include the number for each state in the query result.
 
