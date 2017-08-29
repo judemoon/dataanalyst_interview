@@ -17,7 +17,13 @@ Next, I use validation techniques to make sure our model generalizes with the re
 
 * Probability of 1st and 2nd choices to be orange: $\frac{6}{10} * \frac{5}{9}$
 * Probability of 3rd and 4th choice to be coconut: \frac{4}{8} * \frac{3}{7}
-* Total Probability:  \frac{6}{10} * \frac{5}{9} * \frac{4}{8} * \frac{3}{7} = 0.0714
+* Total Probability:   
+
+  6     5     4     3           
+ --  *  -  *  -  *  -  =  0.0714
+ 10     9     8     7           
+
+
 
 ### Follow up question: If you were given an identical box of chocolates and again eat four pieces in a row, what is the probability that exactly two contain coconut filling?
 
