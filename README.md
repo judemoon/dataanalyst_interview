@@ -1,6 +1,6 @@
 # Interview Practice for Data Analyst Job 
 
-July-August 2017, by Jude Moon
+August 2017, by Jude Moon
 
 ## Practice Overview
 Employers use interviews to judge your readiness and fit for the job, which includes hearing about your skills and interest in the role. The interview is not a test or exam, but a conversation between you and the employer. Build your own strategies to be prepared come interview day. This project is one of many ways for you to practice!
