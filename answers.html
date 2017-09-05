@@ -11762,9 +11762,59 @@ div#notebook {
 <li>Probability of 1st and 2nd choices to be orange and 3rd and 4th choice to be coconut: $\frac{6}{10} * \frac{5}{9} * \frac{4}{8} * \frac{3}{7} = 0.0714$</li>
 </ul>
 <h3 id="Follow-up-question:-If-you-were-given-an-identical-box-of-chocolates-and-again-eat-four-pieces-in-a-row,-what-is-the-probability-that-exactly-two-contain-coconut-filling?">Follow up question: If you were given an identical box of chocolates and again eat four pieces in a row, what is the probability that exactly two contain coconut filling?<a class="anchor-link" href="#Follow-up-question:-If-you-were-given-an-identical-box-of-chocolates-and-again-eat-four-pieces-in-a-row,-what-is-the-probability-that-exactly-two-contain-coconut-filling?">&#182;</a></h3><ul>
-<li>Number of cases to be orange or coconut for 4 pieces: $2 * 2 * 2 * 2 = 16$</li>
-<li>Number of combinations to be two coconut and two orange: $(4-1) + (4-2) + (4-3) = 6$</li>
-<li>Probability of combinations to be two coconut and two orange: $\frac{6}{16} =0.375$</li>
+<li><p>Number of different ways to arrange two coconut and two orange: $6$</p>
+<p>O is orange cream filling and X is coconut filling:</p>
+</li>
+</ul>
+<table>
+<thead><tr>
+<th>1st</th>
+<th>2nd</th>
+<th>3rd</th>
+<th>4th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>X</td>
+<td>X</td>
+<td>O</td>
+<td>O</td>
+</tr>
+<tr>
+<td>X</td>
+<td>O</td>
+<td>X</td>
+<td>O</td>
+</tr>
+<tr>
+<td>X</td>
+<td>O</td>
+<td>O</td>
+<td>X</td>
+</tr>
+<tr>
+<td>O</td>
+<td>X</td>
+<td>X</td>
+<td>O</td>
+</tr>
+<tr>
+<td>O</td>
+<td>X</td>
+<td>O</td>
+<td>X</td>
+</tr>
+<tr>
+<td>O</td>
+<td>O</td>
+<td>X</td>
+<td>X</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Probability of the combinations to be two coconut and two orange: $ProbabilityOfPermutation * Redundancies = 0.0714*6 =0.4284$</li>
 </ul>
 <hr>
 <h3 id="3.-Given-the-table-users:">3. Given the table users:<a class="anchor-link" href="#3.-Given-the-table-users:">&#182;</a></h3><center>Table "users"</center><table>
